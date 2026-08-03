@@ -1,0 +1,60 @@
+{
+  "id": "/Footprint-/",
+  "name": "Hyperliquid Footprint",
+  "short_name": "HL Footprint",
+  "description": "Footprint chart estilo ATAS para mercados perpetuos de Hyperliquid",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0a0c11",
+  "theme_color": "#0a0c11",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["finance", "business", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/mobile-1.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Vista del gráfico footprint en móvil"
+    },
+    {
+      "src": "screenshots/wide-1.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Vista del gráfico footprint en escritorio"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Abrir HL Footprint",
+      "short_name": "Footprint",
+      "description": "Abre directamente el gráfico footprint",
+      "url": "./index.html",
+      "icons": [
+        { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }
+      ]
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
